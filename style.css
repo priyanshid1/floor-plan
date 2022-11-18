@@ -1,0 +1,42 @@
+.parentElement {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.container{
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.square {
+  background-color: pink;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 1px;
+  height: 50px;
+  width: 50px;
+}
+.circle {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: grey;
+  border-radius: 50%;
+}
